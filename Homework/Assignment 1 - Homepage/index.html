@@ -11,67 +11,129 @@
     <title>Homepage</title>
   </head>
   <body>
-    <div class="header">
-      <h1>Web Programming Project</h1>
+    <div class="header fade-in">
+      <h1 class="reveal-text">Web Programming Project</h1>
     </div>
-    <div class="scroller">
-      <div class="navbar">
-        <a href="">Link 1</a>
-        <a href="">Link 2</a>
-        <a href="">Link 3</a>
-        <a href="">Link 4</a>
-      </div>
-      <div class="mainContainer">
-        <div class="aboutContainer">
-          <div class="imgContainer">
-            <img src="./Assets/pfp.JPG" alt="pfp" class="pfp" />
+    <div class="homepageWrapper">
+      <div class="headerScreen"></div>
+      <div class="scroller">
+        <div class="navbar rounded-edge">
+          <table>
+            <tr>
+              <td><a href="./classwork.html">Classworks</a></td>
+              <td><a href="./homework.html">Homeworks</a></td>
+              <td><a href="./projects.html">Projects</a></td>
+            </tr>
+          </table>
+        </div>
+        <div class="mainContainer">
+          <div class="aboutContainer rounded-edge">
+            <div class="aboutTopSection">
+              <div class="imgContainer">
+                <img src="./Assets/pfp.JPG" alt="pfp" class="pfp" />
+              </div>
+              <div class="aboutMeContainer">
+                <div>
+                  <h1>Zab Bronola</h1>
+                  <p id="schoolyr">Computer Science Undergraduate</p>
+                </div>
+                <div>
+                  <p id="quoteHeader">Favorite Quote</p>
+                  <p id="favQuote">"git push origin main --force"</p>
+                </div>
+
+                <div class="aboutMeWrapper">
+                  <div class="lists">
+                    <h2>Education</h2>
+                    <ul>
+                      <li>
+                        Currently:
+                        <ul>
+                          <li>Georgia State University</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Past:
+                        <ul>
+                          <li>Discovery High School</li>
+                          <li>Berkmar High School</li>
+                          <li>Sweetwater Middle School</li>
+                          <li>Berkmar Middle School</li>
+                          <li>Luke Christian Institute</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="jobs">
+                    <h2>Dream Jobs</h2>
+                    <ol>
+                      <li>Backend Developer</li>
+                      <li>Frontend Developer</li>
+                      <li>Cloud Engineer</li>
+                      <li>Pilot</li>
+                    </ol>
+                    <ul>
+                      <a
+                        href="https://drive.google.com/file/d/1Go-qYweeb6eglu4H3eqeJmQFXhvf0A4c/view?usp=sharing"
+                        target="_blank"
+                        ><li>My resume</li></a
+                      >
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="aboutBottomSection"></div>
           </div>
-          <div class="aboutMeContainer">
-            <h1>Zab Bronola</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <div class="aboutMeContainer2">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+
+          <div class="externalLinksContainer rounded-edge">
+            <h1>External Links</h1>
+            <a href="http://www.cs.gsu.edu/" target="_blank">
+              <div class="gsuLink">
+                <img src="./Assets/gsuicon.jpg" alt="gsu icon" />
+                <h3>Computer Science Department</h3>
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/zabdiel-bronola-29331b23a/"
+              target="_blank"
+            >
+              <div class="linkedinLink">
+                <img src="./Assets/linkedinicon.png" alt="linkedin icon" />
+                <h3>LinkedIn</h3>
+              </div>
+            </a>
+            <a
+              href="https://github.com/ZabWP/Web-Programming-Files"
+              target="_blank"
+            >
+              <div class="githubLink">
+                <img src="./Assets/githubicon.png" alt="github icon" />
+                <h3>Github</h3>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="infoContainer"></div>
-      </div>
 
-      <div class="secondContainer">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div class="footerContainer rounded-edge">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>
+              Video Games
+              <ul>
+                <li>Marvel Rivals</li>
+                <li>League</li>
+                <li>Valorant</li>
+                <li>Fortnite</li>
+              </ul>
+            </li>
+            <li>Pickleball</li>
+            <li>Golf</li>
+            <li>Rock Climbing</li>
+            <li>Working Out</li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
