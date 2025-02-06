@@ -159,9 +159,6 @@ body {
         & .aboutMeWrapper {
           display: flex;
 
-          & .lists {
-          }
-
           & .jobs {
             width: 70%;
           }
